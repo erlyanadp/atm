@@ -137,7 +137,7 @@ public class FXMLDocumentController implements Initializable {
                 ((Node)(event.getSource())).getScene().getWindow().hide();
                 //Load the new fxml
                 FXMLLoader fxmlLoader = new FXMLLoader();
-                fxmlLoader.setLocation(getClass().getResource("FXMLMenuAwal.fxml"));
+                fxmlLoader.setLocation(getClass().getResource("FXMLTampilanAwal.fxml"));
                 Scene scene = new Scene (fxmlLoader.load(), 830, 450);
                 Stage stage = new Stage();
                 stage.setScene(scene);

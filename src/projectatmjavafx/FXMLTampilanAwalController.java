@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author SuperJeje
  */
-public class FXMLMenuAwalController implements Initializable {
+public class FXMLTampilanAwalController implements Initializable {
 
     /**
      * Initializes the controller class.
