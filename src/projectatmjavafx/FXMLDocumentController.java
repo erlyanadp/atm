@@ -141,7 +141,7 @@ public class FXMLDocumentController implements Initializable {
                 Scene scene = new Scene (fxmlLoader.load(), 830, 450);
                 Stage stage = new Stage();
                 stage.setScene(scene);
-                stage.setTitle("MenuAwal");
+                stage.setTitle("Pilih Uang yang akan Anda Tarik");
                 stage.show();
             }
             catch (IOException e){
