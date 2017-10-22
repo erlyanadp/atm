@@ -138,7 +138,7 @@ public class FXMLDocumentController implements Initializable {
                 //Load the new fxml
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(getClass().getResource("FXMLTampilanAwal.fxml"));
-                Scene scene = new Scene (fxmlLoader.load(), 830, 450);
+                Scene scene = new Scene (fxmlLoader.load(), 450, 450);
                 Stage stage = new Stage();
                 stage.setScene(scene);
                 stage.setTitle("Pilih Uang yang akan Anda Tarik");
