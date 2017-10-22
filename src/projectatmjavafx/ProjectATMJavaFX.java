@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author SuperJeje
+ * @author Erlyana
  */
 public class ProjectATMJavaFX extends Application {
     
